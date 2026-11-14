@@ -42,6 +42,12 @@ class InputGuardrail:
         r"(?i)(password|secret\s+key|private\s+key|api\s+key|token)\s*(for|of|to)?",
     ]
 
+    # Confidential Compensation Patterns
+    SALARY_PATTERNS = [
+        r"(?i)\b(current\s+salary|package|ctc|current\s+package|how\s+much\s+(does\s+he\s+earn|is\s+he\s+making|salary))\b",
+        r"(?i)\b(monthly\s+salary|his\s+salary|his\s+ctc|his\s+package)\b",
+    ]
+
     # Relevant keywords to assess topical relevance
     ON_TOPIC_KEYWORDS = {
         "dinesh", "veerapareddy", "experience", "skill", "skills", "project", "projects",
@@ -68,6 +74,7 @@ class InputGuardrail:
         self.strict_mode = strict_mode
         self._compiled_injections = [re.compile(p) for p in self.INJECTION_PATTERNS]
         self._compiled_pii = [re.compile(p) for p in self.SENSITIVE_PII_PATTERNS]
+        self._compiled_salary = [re.compile(p) for p in self.SALARY_PATTERNS]
         self._compiled_off_topic = [re.compile(p) for p in self.OFF_TOPIC_PATTERNS]
 
     def validate(self, query: str) -> GuardrailResult:
@@ -110,7 +117,21 @@ class InputGuardrail:
                     suggested_response=(
                         "For privacy and security reasons, personal identity credentials, private addresses, "
                         "and internal secrets are not disclosed. You can reach Dinesh directly for authorized "
-                        "recruiter inquiries at veerapareddydinesh@gmail.com."
+                        "recruiter inquiries at dineshveerapareddy@gmail.com."
+                    )
+                )
+
+        # 3. Confidential Salary / Package Inquiry Check
+        for pattern in self._compiled_salary:
+            if pattern.search(clean_query):
+                return GuardrailResult(
+                    passed=False,
+                    action="REDIRECT",
+                    reason="Compensation details are confidential.",
+                    category="CONFIDENTIAL_SALARY",
+                    suggested_response=(
+                        "Dinesh's compensation, CTC, and salary expectations are confidential and discussed directly during interview discussions. "
+                        "Please contact Dinesh directly at dineshveerapareddy@gmail.com (Phone: +91-8374330906) to discuss hiring terms."
                     )
                 )
 

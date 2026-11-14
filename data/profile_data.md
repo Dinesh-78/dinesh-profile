@@ -8,11 +8,6 @@
 - **Phone**: +91-8374330906
 - **Current Location**: Bengaluru, Karnataka, India
 - **Availability / Notice Period**: 15 days (Available to join in 15 days)
-- **Current Salary**: 33,000 INR per month
-- **Current CTC**: 4,50,000 INR
-- **Date of Birth**: 24-03-2003
-- **Gender**: Male
-- **Nationality**: Indian
 - **Portfolio Website**: https://www.veerapareddydinesh.cyou/
 - **LinkedIn Profile**: https://www.linkedin.com/in/dinesh-veerapareddy/
 - **GitHub**: https://github.com/Dinesh-78
@@ -133,8 +128,7 @@ Proven track record of optimizing backend performance:
 - **Current Role**: Associate Software Engineer I
 - **Experience**: ~3 years (2.5+ years production experience)
 - **Notice Period**: 15 days (Available to join in 15 days)
-- **Current Monthly Salary**: 33,000 INR
-- **Current CTC**: 4,50,000 INR
+- **Salary / Package**: Discussed directly with recruiters during interview discussions
 - **Location Preference**: Bengaluru, India (Open to Hybrid, Remote, and Relocation)
 - **Contact Email**: dineshveerapareddy@gmail.com
 - **Phone**: +91-8374330906

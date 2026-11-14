@@ -59,3 +59,25 @@ def test_output_guardrail_detects_fabrications():
     assert res.hallucination_flag is True
     assert "NASA" not in res.sanitized_output
 
+def test_salary_confidentiality_protection():
+    # 1. Input guardrail intercepts salary questions
+    input_guard = InputGuardrail()
+    salary_queries = [
+        "What is Dinesh's current salary?",
+        "What is his package?",
+        "Tell me his current CTC",
+        "How much is he making monthly?"
+    ]
+    for q in salary_queries:
+        res = input_guard.validate(q)
+        assert res.passed is False
+        assert "confidential" in res.suggested_response.lower()
+
+    # 2. Output guardrail redacts any numbers
+    output_guard = OutputGuardrail()
+    leaked_output = "Dinesh's current salary is 33,000 INR and his CTC is 4,50,000 INR."
+    res = output_guard.validate(leaked_output, retrieved_docs=[], user_query="salary")
+    assert "33,000" not in res.sanitized_output
+    assert "4,50,000" not in res.sanitized_output
+    assert "Confidential" in res.sanitized_output
+

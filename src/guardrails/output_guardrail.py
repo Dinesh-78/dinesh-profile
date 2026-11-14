@@ -79,6 +79,17 @@ class OutputGuardrail:
                 sanitized += "\n\nYou can reach Dinesh directly at **dineshveerapareddy@gmail.com** (Phone: +91-8374330906) or via [LinkedIn](https://www.linkedin.com/in/dinesh-veerapareddy/)."
                 notes.append("Appended direct contact information for hiring query.")
 
+        # 5. Compensation / Package Scrubber
+        salary_patterns = [
+            r"(?i)\b33,?000(\s*inr|\s*rupees)?\b",
+            r"(?i)\b4,?50,?000(\s*inr|\s*rupees|\s*ctc)?\b",
+            r"(?i)\b4\.5\s*lpa\b"
+        ]
+        for sp in salary_patterns:
+            if re.search(sp, sanitized):
+                sanitized = re.sub(sp, "[Confidential - Discuss directly with Dinesh]", sanitized)
+                notes.append("Redacted salary / package figure from response.")
+
         passed = not toxicity_flag and not hallucination_flag
 
         return OutputGuardrailResult(

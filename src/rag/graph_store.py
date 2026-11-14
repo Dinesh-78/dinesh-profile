@@ -87,8 +87,6 @@ class ProfileGraphStore:
                 p.location = 'Bengaluru, Karnataka, India',
                 p.notice_period = '15 days',
                 p.available_to_join = '15 days',
-                p.current_salary_monthly = '33,000 INR',
-                p.current_ctc = '4,50,000 INR',
                 p.portfolio = 'https://www.veerapareddydinesh.cyou/',
                 p.linkedin = 'https://www.linkedin.com/in/dinesh-veerapareddy/',
                 p.github = 'https://github.com/Dinesh-78',
@@ -247,7 +245,7 @@ class ProfileGraphStore:
 - (Veerapareddy Dinesh)-[:EARNED]->(AWS Certified Cloud Practitioner)
 - (Veerapareddy Dinesh)-[:EARNED]->(Wipro Java Full Stack Certification)
 
-- Core Availability: Notice Period = 15 days, Location = Bengaluru (Open to Remote / Relocation), Monthly Salary = 33,000 INR, CTC = 4,50,000 INR.
+- Core Availability: Notice Period = 15 days, Location = Bengaluru (Open to Remote / Relocation). Salary & compensation details are confidential and discussed directly during interview discussions.
 """
 
 _graph_instance = None

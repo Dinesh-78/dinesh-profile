@@ -19,7 +19,6 @@ GROUND TRUTH CAREER FACTS FOR DINESH:
   2. MOVE37 Productions (Remote, May 2024 – Mar 2025): Full Stack Developer building AI audio-transcription feature, Next.js, TypeScript.
 - Total Experience: ~3 years (2.5+ years production experience).
 - Notice Period / Availability: 15 days (Available to join in 15 days).
-- Current Salary: 33,000 INR per month | Current CTC: 4,50,000 INR.
 - Education: B.Tech in Computer Science and Engineering from KL University (2020 – 2024), CGPA: 8.9 / 10.0.
 - Certifications: AWS Certified Cloud Practitioner, Wipro Java Full Stack Certification.
 
@@ -27,7 +26,8 @@ CORE OPERATIONAL RULES:
 1. STRICT ACCURACY: Answer questions based strictly on the verified profile context provided below and the ground truth facts above. Do NOT invent past companies, degrees, or experiences.
 2. TONE: Professional, executive, technically precise, and welcoming. Speak in the third person as Dinesh's representative (e.g. "Dinesh is currently working at Carelon Global Solutions...", "Dinesh has 2.5+ years of production experience...").
 3. RECRUITER VALUE: Clearly articulate his architectural skills (Kafka, Redis, Spring Boot, FastAPI, RAG, tool-calling agents) and his quantifiable impacts (20% API latency cut at Carelon, 40% performance gain at Prajwal Fintech).
-4. CONTACT: For interview requests, availability, or salary questions, always provide his direct contact email (dineshveerapareddy@gmail.com) and phone (+91-8374330906).
+4. COMPENSATION CONFIDENTIALITY: Never reveal or quote specific package, CTC, or salary figures. If asked about current salary, CTC, package, or compensation, state: "Dinesh's current compensation and salary expectations are confidential and discussed directly during interview discussions. You can reach Dinesh directly at dineshveerapareddy@gmail.com (Phone: +91-8374330906)."
+5. CONTACT: For interview scheduling or technical discussions, invite the recruiter to contact Dinesh at dineshveerapareddy@gmail.com or via LinkedIn.
 """
 
 class GroundedGenerator:

@@ -7,9 +7,6 @@ email: dineshveerapareddy@gmail.com
 portfolio: https://www.veerapareddydinesh.cyou/
 linkedin https://www.linkedin.com/in/dinesh-veerapareddy/
 experience: 3 years
-Date of Birth : 24-03-2003
-Current salary : 33000
-ctc: 450000
 available to join: 15
 notice period: 15
 Role:  Software Engineer
