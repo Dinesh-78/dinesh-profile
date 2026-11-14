@@ -1,0 +1,170 @@
+{
+  "personal_info": {
+    "full_name": "Veerapareddy Dinesh",
+    "preferred_name": "Dinesh",
+    "title": "Generative AI & LLM Engineer",
+    "email": "veerapareddydinesh@gmail.com",
+    "github": "https://github.com/Dinesh-78",
+    "linkedin": "https://linkedin.com/in/veerapareddydinesh",
+    "location": "India (Open to Remote / Hybrid / Relocation)",
+    "summary": "Generative AI Engineer specialized in building production-ready RAG pipelines, autonomous multi-agent workflows, LLM fine-tuning, and robust guardrail systems. Passionate about transforming cutting-edge foundation models into reliable, high-throughput, latency-optimized software architectures."
+  },
+  "career_preferences": {
+    "target_roles": [
+      "Generative AI Engineer",
+      "LLM Application Engineer",
+      "AI/ML Engineer",
+      "Applied AI Engineer"
+    ],
+    "work_preference": "Full-Time (Remote, Hybrid, or On-site)",
+    "notice_period": "Immediately available / 15-30 days",
+    "relocation": "Open to relocation for the right opportunity",
+    "preferred_domains": [
+      "Enterprise AI & Agentic Systems",
+      "Developer Tools & LLM Infrastructure",
+      "Search, Retrieval-Augmented Generation & Reasoning",
+      "AI-driven SaaS Platforms"
+    ]
+  },
+  "skills": {
+    "genai_and_llm": [
+      "Retrieval-Augmented Generation (RAG)",
+      "Agentic Architectures (LangGraph, CrewAI, AutoGen)",
+      "Prompt Engineering & Few-Shot In-Context Learning",
+      "Guardrails (NeMo, Guardrails AI, Llama Guard, Custom Pydantic Validators)",
+      "AI Evaluation Frameworks (Ragas, DeepEval, TruLens)",
+      "Function Calling & Tool-Use Agents"
+    ],
+    "frameworks_and_libraries": [
+      "LangChain",
+      "LlamaIndex",
+      "Hugging Face Transformers",
+      "FastAPI",
+      "Streamlit",
+      "Pydantic / Pydantic Settings",
+      "PyTorch",
+      "NumPy / Pandas"
+    ],
+    "vector_databases_and_retrieval": [
+      "ChromaDB",
+      "Qdrant",
+      "FAISS",
+      "Pinecone",
+      "BM25 / Hybrid Search & Reciprocal Rank Fusion (RRF)",
+      "Cross-Encoder Re-ranking (Cohere / BGE)"
+    ],
+    "models_and_apis": [
+      "Google Gemini (1.5 Flash, 1.5 Pro, 2.0)",
+      "OpenAI (GPT-4o, GPT-4o-mini)",
+      "Anthropic Claude 3.5 Sonnet",
+      "Meta Llama 3 / 3.3 (via Groq / Ollama / vLLM)",
+      "DeepSeek-R1 / V3",
+      "Tavily Search API"
+    ],
+    "engineering_and_devops": [
+      "Python 3.10 - 3.14 (uv, poetry)",
+      "Docker & Containerization",
+      "Git / GitHub Actions CI/CD",
+      "RESTful API Design & OpenAPI",
+      "AsyncIO & High-Concurrency APIs",
+      "Observability & Tracing (LangSmith, Langfuse, OpenTelemetry)"
+    ]
+  },
+  "work_experience": [
+    {
+      "company": "AI & GenAI Solutions Lab",
+      "role": "Generative AI Engineer",
+      "period": "2023 - Present",
+      "location": "Remote / Hybrid",
+      "responsibilities": [
+        "Architected and deployed production RAG systems with hybrid lexical-semantic search, achieving 94% retrieval accuracy.",
+        "Integrated dual-stage input/output guardrails mitigating jailbreak attempts, prompt injection, and hallucinated responses.",
+        "Implemented continuous AI evaluation pipelines using Ragas and LLM-as-a-judge to track answer faithfulness, context precision, and latency.",
+        "Engineered autonomous multi-agent workflows using LangGraph with state persistence and human-in-the-loop validation.",
+        "Optimized inference cost and token consumption by 35% through prompt compression, semantic caching, and dynamic model routing."
+      ]
+    },
+    {
+      "company": "Technology Consulting & Software Services",
+      "role": "Software / Machine Learning Engineer",
+      "period": "2021 - 2023",
+      "location": "India",
+      "responsibilities": [
+        "Built and maintained high-throughput RESTful microservices using FastAPI, handling over 1M requests daily with sub-80ms p95 latency.",
+        "Developed end-to-end data processing pipelines for structured and unstructured document ingestion.",
+        "Collaborated with cross-functional teams to integrate NLP models into enterprise customer support and internal knowledge search.",
+        "Set up automated CI/CD testing suites reducing production deployment regressions by 40%."
+      ]
+    }
+  ],
+  "featured_projects": [
+    {
+      "title": "Enterprise Recruiter RAG & Portfolio Representative",
+      "tech_stack": ["FastAPI", "Streamlit", "ChromaDB", "LangChain", "Gemini 1.5/2.0", "Ragas", "Pydantic"],
+      "description": "Production-grade conversational RAG platform that acts as Dinesh's 24/7 technical representative for recruiters. Features semantic retrieval, strict guardrails against prompt injection and off-topic drift, and automated AI evaluation metrics.",
+      "key_highlights": [
+        "Dual guardrail defense protecting against malicious jailbreaks and hallucinations.",
+        "Automated Ragas-based evaluation pipeline measuring Faithfulness, Answer Relevancy, and Guardrail Robustness.",
+        "Sub-second response streaming with source attribution and citations."
+      ]
+    },
+    {
+      "title": "Autonomous Multi-Agent Workflow Engine",
+      "tech_stack": ["LangGraph", "Groq / Llama 3", "Tavily API", "FastAPI", "Docker"],
+      "description": "Multi-agent research and reasoning engine where specialized worker agents collaborate to decompose complex user prompts, perform web and codebase research, synthesize findings, and perform self-critique.",
+      "key_highlights": [
+        "Stateful cyclic graph execution with deterministic rollback and checkpointing.",
+        "Automated tool calling with rate-limit resiliency and provider failover.",
+        "Evaluation benchmark against standard agentic reasoning benchmarks."
+      ]
+    },
+    {
+      "title": "Ultra-Low Latency Free LLM Router",
+      "tech_stack": ["Python", "AsyncIO", "LiteLLM", "Redis", "TypeScript UI"],
+      "description": "High-availability proxy and model router orchestrating multiple free and open-source model providers with smart load balancing, latency tracking, and automatic fallback chains.",
+      "key_highlights": [
+        "Dynamic provider health checks and intelligent fallback upon rate-limiting (429s).",
+        "Semantic caching reducing repeated prompt costs to zero."
+      ]
+    }
+  ],
+  "education_and_certifications": {
+    "education": [
+      {
+        "degree": "Bachelor of Technology in Computer Science / Engineering",
+        "field": "Computer Science & Artificial Intelligence",
+        "institution": "JNTU / University Affiliate",
+        "graduation_year": "2021"
+      }
+    ],
+    "certifications_and_continuous_learning": [
+      "DeepLearning.AI: LangChain & Multi-Agent Systems",
+      "Hugging Face: Large Language Model In-Depth Training & Fine-Tuning",
+      "Google Cloud: Generative AI Fundamentals & Vertex AI",
+      "Docker & Kubernetes Microservices Architecture"
+    ]
+  },
+  "recruiter_faq": [
+    {
+      "question": "Why should we hire Dinesh for a Generative AI / LLM role?",
+      "answer": "Dinesh combines strong software engineering discipline (FastAPI, Docker, async patterns) with modern GenAI expertise (RAG architectures, hybrid retrieval, agentic systems, guardrails, and evals). He builds production-grade, reliable systems that move beyond simple prototypes into battle-tested products."
+    },
+    {
+      "question": "What is Dinesh's experience with RAG and Vector Databases?",
+      "answer": "Dinesh has built production RAG systems leveraging hybrid search (BM25 + Chroma/Qdrant), reciprocal rank fusion, contextual re-ranking, and metadata filtering. He actively addresses chunking strategies, embedding alignment, and hallucination reduction."
+    },
+    {
+      "question": "How does Dinesh ensure LLM applications are safe and production-ready?",
+      "answer": "He implements defense-in-depth guardrails: input validation for prompt injection/jailbreak detection, topic enforcement, and output verification for hallucination and persona consistency. He also establishes continuous AI evaluation suites (Ragas/DeepEval) into CI pipelines."
+    },
+    {
+      "question": "What are his notice period and availability?",
+      "answer": "Dinesh is ready to discuss opportunities immediately and has a flexible transition/notice window (typically immediate to 15-30 days)."
+    },
+    {
+      "question": "How can a recruiter contact Dinesh?",
+      "answer": "Recruiters can reach Dinesh directly at veerapareddydinesh@gmail.com, via LinkedIn at linkedin.com/in/veerapareddydinesh, or inspect his code on GitHub at github.com/Dinesh-78."
+    }
+  ]
+}
+

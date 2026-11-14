@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+chroma_db/
+.pytest_cache/
+.coverage
+htmlcov/
+.DS_Store
+*.egg-info/
+dist/
+build/
+eval_reports/
+
