@@ -36,9 +36,15 @@ class Settings(BaseSettings):
 
     # Provider & Model selection
     LLM_PROVIDER: str = Field(default="gemini")
-    GEMINI_MODEL: str = Field(default="gemini-1.5-flash")
-    GROQ_MODEL: str = Field(default="llama-3.3-70b-versatile")
-    EMBEDDING_MODEL: str = Field(default="models/text-embedding-004")
+    GEMINI_MODEL: str = Field(default="gemini-3.5-flash-lite")
+    GROQ_MODEL: str = Field(default="qwen/qwen3.8-27b")
+    EMBEDDING_MODEL: str = Field(default="models/gemini-embedding-001")
+
+    # Neo4j Graph Database
+    NEO4J_URI: str = Field(default_factory=lambda: _get_secret("NEO4J_URI", "bolt://localhost:7687"))
+    NEO4J_USERNAME: str = Field(default_factory=lambda: _get_secret("NEO4J_USERNAME", "neo4j"))
+    NEO4J_PASSWORD: str = Field(default_factory=lambda: _get_secret("NEO4J_PASSWORD", ""))
+    GRAPH_RAG_ENABLED: bool = Field(default=True)
 
     # Guardrails
     GUARDRAILS_ENABLED: bool = Field(default=True)

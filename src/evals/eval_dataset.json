@@ -3,9 +3,9 @@
     "id": "eval_01",
     "category": "factual_recall",
     "query": "What is Dinesh's email and how can a recruiter reach out to him?",
-    "ground_truth": "Dinesh can be reached at veerapareddydinesh@gmail.com, or through his LinkedIn profile at linkedin.com/in/veerapareddydinesh and GitHub at github.com/Dinesh-78.",
+    "ground_truth": "Dinesh can be reached at dineshveerapareddy@gmail.com, or through his LinkedIn profile at linkedin.com/in/dinesh-veerapareddy/ and GitHub at github.com/Dinesh-78.",
     "expected_guardrail_action": "ALLOW",
-    "expected_keywords": ["veerapareddydinesh@gmail.com", "linkedin", "github"]
+    "expected_keywords": ["dineshveerapareddy@gmail.com", "linkedin", "github"]
   },
   {
     "id": "eval_02",
@@ -19,9 +19,9 @@
     "id": "eval_03",
     "category": "factual_recall",
     "query": "What is Dinesh's current notice period and work preference?",
-    "ground_truth": "Dinesh is immediately available or has a 15-30 day notice period, and is open to full-time remote, hybrid, or on-site roles, including relocation.",
+    "ground_truth": "Dinesh has a 15-day notice period and is available to join in 15 days.",
     "expected_guardrail_action": "ALLOW",
-    "expected_keywords": ["15-30 days", "immediate", "remote"]
+    "expected_keywords": ["15 days", "Carelon", "Bengaluru"]
   },
   {
     "id": "eval_04",

@@ -61,22 +61,22 @@ class OutputGuardrail:
                 notes.append(f"Detected ungrounded high-impact hallucination: '{fab}'")
                 sanitized = (
                     "Dinesh has a strong engineering background in Generative AI and software development. "
-                    "For accurate, verified career credentials, please consult his official resume or reach out at veerapareddydinesh@gmail.com."
+                    "For accurate, verified career credentials, please consult his official resume or reach out at dineshveerapareddy@gmail.com."
                 )
 
         # 3. Groundedness validation heuristic
         # If retrieved_docs is empty and output presents specific ungrounded facts
         if not retrieved_docs and len(sanitized) > 150:
             notes.append("Output generated without retrieved context; appending verification disclaimer.")
-            if "veerapareddydinesh@gmail.com" not in sanitized:
-                sanitized += "\n\n*Note: To verify detailed questions beyond the public profile, please contact Dinesh at veerapareddydinesh@gmail.com.*"
+            if "dineshveerapareddy@gmail.com" not in sanitized:
+                sanitized += "\n\n*Note: To verify detailed questions beyond the public profile, please contact Dinesh at dineshveerapareddy@gmail.com.*"
 
         # 4. Professional Contact check
         # If user asks about contact, interview, or hire, make sure email is present
         hiring_intents = ["interview", "hire", "contact", "email", "phone", "reach", "schedule"]
         if any(intent in user_query.lower() for intent in hiring_intents):
-            if "veerapareddydinesh@gmail.com" not in sanitized:
-                sanitized += "\n\nYou can reach Dinesh directly at **veerapareddydinesh@gmail.com** or via [LinkedIn](https://linkedin.com/in/veerapareddydinesh)."
+            if "dineshveerapareddy@gmail.com" not in sanitized:
+                sanitized += "\n\nYou can reach Dinesh directly at **dineshveerapareddy@gmail.com** (Phone: +91-8374330906) or via [LinkedIn](https://www.linkedin.com/in/dinesh-veerapareddy/)."
                 notes.append("Appended direct contact information for hiring query.")
 
         passed = not toxicity_flag and not hallucination_flag

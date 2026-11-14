@@ -62,3 +62,11 @@ def test_efficient_agent_routing_and_caching():
     assert res3["cached"] is True
     assert res3["latency_ms"] < 20
 
+def test_neo4j_graph_store_initialization():
+    from src.rag.graph_store import ProfileGraphStore
+    graph_store = ProfileGraphStore()
+    context = graph_store.query_graph_context("Carelon Global Solutions")
+    assert "Carelon Global Solutions" in context
+    assert "Prajwal Fintech" in context
+    assert "KL University" in context
+

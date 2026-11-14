@@ -1,108 +1,143 @@
-# Veerapareddy Dinesh - Professional Profile & Knowledge Base
+# Veerapareddy Dinesh - Official Profile & Resume Knowledge Base
 
-## Summary & Overview
-Veerapareddy Dinesh (Dinesh) is a Generative AI & LLM Engineer passionate about transforming cutting-edge foundation models into production-grade, reliable, and high-throughput software architectures. He specializes in:
-- Retrieval-Augmented Generation (RAG) pipelines with hybrid search and reranking
-- Autonomous multi-agent architectures (LangGraph, CrewAI, AutoGen)
-- Multi-layer guardrail systems (Prompt injection prevention, topic boundaries, hallucination checks)
-- AI Evaluations & Benchmarking (Ragas, DeepEval, LLM-as-a-judge)
-- Production-grade backend APIs with FastAPI, Docker, and async processing
-
-Contact Information:
-- Email: veerapareddydinesh@gmail.com
-- GitHub: https://github.com/Dinesh-78
-- LinkedIn: https://linkedin.com/in/veerapareddydinesh
-- Location: India (Open to Remote, Hybrid, and Relocation)
-
----
-
-## Career Preferences & Availability
-- Target Roles: Generative AI Engineer, LLM Application Engineer, AI/ML Engineer, Applied AI Engineer
-- Work Arrangement: Full-Time (Remote, Hybrid, or On-site)
-- Notice Period: Immediate / 15-30 days
-- Relocation: Open to relocation for relevant opportunities
-- Primary Domains of Interest: Enterprise GenAI, Agentic Systems, Search & RAG Infrastructure, AI SaaS Platforms
+## Personal Information & Contact
+- **Full Name**: Veerapareddy Dinesh
+- **Preferred Name**: Dinesh
+- **Professional Title**: AI Engineer | GenAI Full Stack | Forward Deployed Engineer
+- **Email**: dineshveerapareddy@gmail.com
+- **Phone**: +91-8374330906
+- **Current Location**: Bengaluru, Karnataka, India
+- **Availability / Notice Period**: 15 days (Available to join in 15 days)
+- **Current Salary**: 33,000 INR per month
+- **Current CTC**: 4,50,000 INR
+- **Date of Birth**: 24-03-2003
+- **Gender**: Male
+- **Nationality**: Indian
+- **Portfolio Website**: https://www.veerapareddydinesh.cyou/
+- **LinkedIn Profile**: https://www.linkedin.com/in/dinesh-veerapareddy/
+- **GitHub**: https://github.com/Dinesh-78
 
 ---
 
-## Core Technical Skills & Competencies
+## Executive Professional Summary
+Full stack and Generative AI engineer with 2.5+ years of production experience across healthcare and fintech domains, now advancing into applied AI engineering. Expert in architecting Java/Spring Boot and Node.js microservice backends, Angular and Next.js modern frontends, and distributed Kafka/Redis asynchronous systems. 
 
-### Generative AI & LLM Systems
-- **Retrieval-Augmented Generation (RAG)**: Advanced chunking, metadata tagging, hybrid search (dense semantic + sparse BM25), reciprocal rank fusion (RRF), cross-encoder re-ranking, query expansion, self-reflective RAG.
-- **Agentic Workflows**: Multi-agent orchestration with LangGraph, cyclic graphs, state persistence, tool calling, human-in-the-loop validation, planning and reflection.
-- **Guardrails & Security**: Prompt injection defense, system prompt leak mitigation, jailbreak detection, topic boundary enforcement, PII scrubbing, groundedness verification.
-- **AI Evaluations**: Faithfulness, answer relevance, context precision/recall, red-teaming test suites using Ragas, DeepEval, and LLM-as-a-Judge.
-- **Models**: Google Gemini 1.5 Flash/Pro, Gemini 2.0, OpenAI GPT-4o/mini, Claude 3.5 Sonnet, Llama 3/3.3, DeepSeek-R1.
+Proven track record of optimizing backend performance:
+- Cut API response times by **20%** at Carelon Global Solutions.
+- Improved API performance by **40%** at Prajwal Fintech.
+- Shipped an AI-powered audio transcription feature at MOVE37 Productions.
+- Actively builds production GenAI systems utilizing LLM APIs, hybrid RAG pipelines, vector databases (ChromaDB, Pinecone), and tool-calling agentic architectures.
 
-### Software Engineering & Backend Architecture
-- **Languages**: Python (3.10 - 3.14), SQL, Bash, JavaScript/TypeScript basics.
-- **Frameworks**: FastAPI, Streamlit, LangChain, LlamaIndex, Pydantic (v2), PyTorch.
-- **Vector Stores & Databases**: ChromaDB, Qdrant, FAISS, Pinecone, PostgreSQL, Redis.
-- **DevOps & Tooling**: Docker, Docker Compose, Git, GitHub Actions CI/CD, uv, Poetry, Linux environment.
-- **Observability**: Tracing and monitoring with LangSmith, Langfuse, OpenTelemetry.
+---
+
+## Technical Skills & Core Competencies
+
+### AI & Generative AI
+- **LLMs & Prompt Engineering**: OpenAI GPT-4o, Google Gemini 1.5/2.0, Groq (Llama 3.3), DeepSeek, Claude 3.5.
+- **RAG & Search**: Retrieval-Augmented Generation, Dense Embeddings, Vector Databases (ChromaDB, Pinecone, FAISS), BM25 Sparse Search, Reciprocal Rank Fusion (RRF), Contextual Chunking.
+- **AI Agents**: Tool-calling agents, LangChain, LangGraph, AutoGen, autonomous workflows.
+- **Speech & Audio AI**: Speech-to-text models, AI audio transcription features.
+- **Python Frameworks**: Python 3.10+, FastAPI, Pydantic, Streamlit.
+
+### Backend Engineering & Microservices
+- **Languages & Frameworks**: Java, Spring Boot, Microservices Architecture, Node.js, Express.js.
+- **Distributed Systems & Caching**: Apache Kafka (message streaming, async task processing), Redis (in-memory caching, distributed locks), Prisma ORM, Cron jobs.
+- **APIs**: RESTful API design, OpenAPI/Swagger, High-concurrency async endpoints.
+
+### Frontend Engineering
+- **Frameworks & Libraries**: Angular, Next.js, React.js, React Native, Redux.
+- **Web Technologies**: TypeScript, JavaScript, HTML5, CSS3, Tailwind CSS, shadcn/ui.
+
+### Databases
+- **Relational**: MySQL, PostgreSQL.
+- **NoSQL & In-Memory**: Redis, Firebase, MongoDB.
+
+### Cloud, DevOps & Tools
+- **Cloud Platforms**: AWS (Amazon Web Services), GCP (Google Cloud Platform).
+- **Containerization & CI/CD**: Docker, Git, GitHub Actions, Automated testing pipelines.
 
 ---
 
 ## Professional Work Experience
 
-### Generative AI Engineer | AI & GenAI Solutions Lab (2023 - Present)
-- Architected and delivered production RAG systems with hybrid lexical-semantic search, improving retrieval accuracy to 94%.
-- Designed and embedded dual-stage input and output guardrails, intercepting 99%+ of prompt injection, jailbreak attempts, and off-topic requests.
-- Integrated automated evaluation pipelines using Ragas and LLM-as-a-judge within CI/CD to track answer faithfulness, context precision, and latency regressions.
-- Developed multi-agent reasoning workflows using LangGraph with state persistence and automated tool execution.
-- Reduced inference cost and token consumption by 35% through prompt optimization, semantic caching, and model routing.
+### 1. Carelon Global Solutions India
+- **Role**: Associate Software Engineer I
+- **Period**: Feb 2026 – Present
+- **Location**: Bengaluru, Karnataka, India (Hybrid)
+- **Key Responsibilities & Achievements**:
+  - Own the Benefits and Insurance module within an enterprise healthcare platform end-to-end, building backend microservices in Java/Spring Boot and responsive user interfaces in Angular.
+  - Collaborated with product managers and QA to translate complex insurance eligibility and claims logic into reliable, user-friendly features used by thousands of platform members.
+  - Architected and developed RESTful APIs and microservices supporting core healthcare workflows, integrating both SQL and NoSQL databases to handle structured member records and semi-structured records.
+  - Optimized API response times by 20% to 30% through targeted query tuning, database indexing strategies, and removal of redundant service calls in the Benefits module.
+  - Diagnosed performance bottlenecks using AWS monitoring tools, directly improving page responsiveness and reducing backend server load during peak platform usage.
+  - Collaborated within an Agile team of 10+ engineers, QA analysts, and product managers in sprint planning, backlog grooming, and daily standups.
 
-### Software / Machine Learning Engineer | Technology Consulting & Software Services (2021 - 2023)
-- Built high-performance REST microservices using FastAPI, handling over 1M requests daily with sub-80ms p95 latency.
-- Implemented data ingestion and ETL pipelines for structured and unstructured documents.
-- Integrated NLP models into enterprise customer support and internal search tools.
-- Established automated testing and CI/CD pipelines, reducing production bugs and regression rates by 40%.
+### 2. Prajwal Fintech Private Limited
+- **Role**: Software Engineer
+- **Period**: Mar 2025 – Feb 2026
+- **Location**: Hyderabad, India
+- **Key Responsibilities & Achievements**:
+  - Led a team of developers building scalable MERN-stack financial applications with strict focus on high performance, transaction integrity, and security.
+  - Architected the backend infrastructure leveraging Redis distributed caching, Firebase, and Apache Kafka asynchronous task queues for financial transactions.
+  - Improved API performance by 40% through database query optimization, compound indexing, and caching layers.
+  - Constructed automated CI/CD deployment pipelines using GitHub Actions, containerized microservices with Docker, and deployed on GCP and AWS.
+  - Conducted comprehensive code reviews and mentored junior developers and interns on software quality and security standards.
+
+### 3. MOVE37 Productions
+- **Role**: Full Stack Developer
+- **Period**: May 2024 – Mar 2025
+- **Location**: Remote
+- **Key Responsibilities & Achievements**:
+  - Built and deployed an AI-powered audio-transcription feature integrated directly into the product core.
+  - Developed scalable, high-performance UI systems with Next.js, TypeScript, and Tailwind CSS.
+  - Delivered responsive, client-focused web applications collaborating with cross-functional remote teams.
 
 ---
 
 ## Featured Projects
 
-### 1. Enterprise Recruiter RAG & Portfolio Representative
-- **Tech Stack**: FastAPI, Streamlit, ChromaDB, LangChain, Google Gemini, Ragas, Pydantic.
-- **Description**: A production-grade conversational RAG platform that acts as Dinesh's 24/7 technical representative for recruiters. Features semantic retrieval, strict guardrails against prompt injection and off-topic drift, and automated AI evaluation metrics.
+### 1. Enterprise Recruiter RAG & AI Career Representative
+- **Tech Stack**: Streamlit, FastAPI, ChromaDB, LangChain, Google Gemini, Guardrails, Ragas.
+- **Description**: Production-grade conversational RAG platform that acts as Dinesh's 24/7 technical representative for recruiters. Features semantic retrieval, strict guardrails against prompt injection and off-topic drift, and automated AI evaluation metrics.
 - **Highlights**: Dual-stage guardrails (input sanitizer + output groundedness verifier), Ragas automated evals (Faithfulness, Relevancy, Guardrail Robustness), sub-second streaming answers with citations.
 
-### 2. Autonomous Multi-Agent Workflow Engine
-- **Tech Stack**: LangGraph, Groq / Llama 3, Tavily API, FastAPI, Docker.
-- **Description**: Stateful multi-agent research and reasoning engine where specialized worker agents collaborate to decompose complex user prompts, perform web and codebase research, synthesize findings, and perform self-critique.
-- **Highlights**: Cyclic graph state execution with deterministic checkpointing, automated tool calling with rate-limit resiliency, and benchmarked reasoning capabilities.
+### 2. AI-Powered Audio Transcription Feature
+- **Tech Stack**: Python, Speech-to-Text APIs, Next.js, TypeScript, Tailwind CSS.
+- **Description**: Engineered automated speech-to-text transcription feature at MOVE37 Productions, streamlining audio-to-text processing for media productions.
+- **Highlights**: Integrated AI transcription models with low-latency streaming audio pipelines. Built intuitive editing interface in Next.js allowing creators to review, edit, and export transcripts.
 
-### 3. Ultra-Low Latency Free LLM Router
-- **Tech Stack**: Python, AsyncIO, LiteLLM, Redis, TypeScript UI.
-- **Description**: High-availability proxy and model router orchestrating multiple free and open-source model providers with smart load balancing, latency tracking, and automatic fallback chains.
-- **Highlights**: Dynamic provider health checks and intelligent fallback upon rate-limiting (429s), and semantic caching.
+### 3. Courier Management System
+- **Tech Stack**: Java, Spring Boot, JSP, React, TypeScript, Tailwind CSS.
+- **Description**: Full-stack enterprise logistics and package tracking application.
+- **Highlights**: Built the courier tracking and dispatch service module with Spring Boot. Implemented session timeout security to log out inactive users and created a responsive dashboard with Tailwind CSS.
 
 ---
 
 ## Education & Certifications
-- **Degree**: Bachelor of Technology in Computer Science & Artificial Intelligence (Graduated 2021).
-- **Certifications**:
-  - DeepLearning.AI: LangChain & Multi-Agent Systems
-  - Hugging Face: Large Language Model Training & Fine-Tuning
-  - Google Cloud: Generative AI Fundamentals & Vertex AI
-  - Docker & Kubernetes Microservices Architecture
+
+### Education
+- **Degree**: Bachelor of Technology (B.Tech) in Computer Science and Engineering
+- **University**: KL University
+- **Duration**: 2020 – 2024
+- **CGPA**: 8.9 / 10.0
+
+### Certifications
+- **AWS Certified Cloud Practitioner**
+- **Wipro Java Full Stack Certification**
 
 ---
 
-## Recruiter Frequently Asked Questions (FAQ)
+## Recruiter Quick Reference & FAQ
 
-### Q: Why should we hire Dinesh for our GenAI / LLM team?
-A: Dinesh bridges the gap between proof-of-concept AI scripts and production-grade software engineering. He doesn't just call LLM APIs—he implements hybrid retrieval, dual guardrails to safeguard systems, automated evaluation suites (Ragas) to prevent regressions, and clean asynchronous APIs with FastAPI and Docker.
-
-### Q: What is Dinesh's experience with RAG and Vector Databases?
-A: Dinesh has hands-on production experience designing hybrid retrieval architectures (combining BM25 sparse search and Chroma/Qdrant dense vector search), applying reciprocal rank fusion (RRF), cross-encoder re-ranking, and metadata filtering. He actively addresses chunking strategies, embedding alignment, and hallucination reduction.
-
-### Q: How does Dinesh ensure LLM applications are safe and production-ready?
-A: He implements defense-in-depth guardrails: input validation for prompt injection/jailbreak detection, topic enforcement, and output verification for hallucination and persona consistency. He also establishes continuous AI evaluation suites (Ragas/DeepEval) into CI pipelines.
-
-### Q: What are his notice period and availability?
-A: Dinesh is immediately available or within a 15-30 day transition window, open to full-time remote, hybrid, or on-site roles, and open to relocation.
-
-### Q: How can a recruiter contact Dinesh?
-A: Contact directly at veerapareddydinesh@gmail.com, on LinkedIn at linkedin.com/in/veerapareddydinesh, or via GitHub at github.com/Dinesh-78.
-
+- **Current Company**: Carelon Global Solutions India (Bengaluru)
+- **Current Role**: Associate Software Engineer I
+- **Experience**: ~3 years (2.5+ years production experience)
+- **Notice Period**: 15 days (Available to join in 15 days)
+- **Current Monthly Salary**: 33,000 INR
+- **Current CTC**: 4,50,000 INR
+- **Location Preference**: Bengaluru, India (Open to Hybrid, Remote, and Relocation)
+- **Contact Email**: dineshveerapareddy@gmail.com
+- **Phone**: +91-8374330906
+- **Portfolio**: https://www.veerapareddydinesh.cyou/
+- **LinkedIn**: https://www.linkedin.com/in/dinesh-veerapareddy/
+- **GitHub**: https://github.com/Dinesh-78

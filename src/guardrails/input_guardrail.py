@@ -20,8 +20,8 @@ class InputGuardrail:
 
     # Prompt injection and jailbreak signatures
     INJECTION_PATTERNS = [
-        r"(?i)ignore\s+(all\s+)?(previous|above|prior)\s+(instructions|prompts|rules)",
-        r"(?i)disregard\s+(the\s+)?(previous|above|prior)\s+(instructions|system\s+message)",
+        r"(?i)ignore\s+(all\s+)?(previous\s+|above\s+|prior\s+)?(instructions|prompts|rules)",
+        r"(?i)disregard\s+(the\s+)?(previous\s+|above\s+|prior\s+)?(instructions|system\s+message)",
         r"(?i)system\s+override",
         r"(?i)you\s+are\s+now\s+(in\s+)?(developer\s+mode|dan\s+mode|unrestricted\s+mode|god\s+mode)",
         r"(?i)jailbreak",

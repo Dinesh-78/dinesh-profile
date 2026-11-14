@@ -27,9 +27,11 @@ def main():
         st.divider()
         st.markdown("### 📬 Contact")
         st.markdown("- **Email:** [dineshveerapareddy@gmail.com](mailto:dineshveerapareddy@gmail.com)")
+        st.markdown("- **Phone:** [+91-8374330906](tel:+918374330906)")
         st.markdown("- **LinkedIn:** [dinesh-veerapareddy](https://www.linkedin.com/in/dinesh-veerapareddy/)")
         st.markdown("- **Portfolio:** [veerapareddydinesh.cyou](https://www.veerapareddydinesh.cyou/)")
         st.markdown("- **GitHub:** [Dinesh-78](https://github.com/Dinesh-78)")
+        st.markdown("- **Notice Period:** 15 days")
 
         st.divider()
         if st.button("Clear Chat", use_container_width=True):

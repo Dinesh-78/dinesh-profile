@@ -2,169 +2,196 @@
   "personal_info": {
     "full_name": "Veerapareddy Dinesh",
     "preferred_name": "Dinesh",
-    "title": "Generative AI & LLM Engineer",
-    "email": "veerapareddydinesh@gmail.com",
+    "title": "AI Engineer | GenAI Full Stack | Forward Deployed Engineer",
+    "email": "dineshveerapareddy@gmail.com",
+    "phone": "+91-8374330906",
+    "gender": "Male",
+    "nationality": "Indian",
+    "date_of_birth": "24-03-2003",
+    "current_location": "Bengaluru, Karnataka, India",
     "github": "https://github.com/Dinesh-78",
-    "linkedin": "https://linkedin.com/in/veerapareddydinesh",
-    "location": "India (Open to Remote / Hybrid / Relocation)",
-    "summary": "Generative AI Engineer specialized in building production-ready RAG pipelines, autonomous multi-agent workflows, LLM fine-tuning, and robust guardrail systems. Passionate about transforming cutting-edge foundation models into reliable, high-throughput, latency-optimized software architectures."
+    "linkedin": "https://www.linkedin.com/in/dinesh-veerapareddy/",
+    "portfolio": "https://www.veerapareddydinesh.cyou/",
+    "summary": "Full stack and Generative AI engineer with 2.5+ years of production experience across healthcare and fintech, expanding into production AI engineering. Specialized in building Java/Spring Boot and Node.js backends, Angular and Next.js frontends, Kafka and Redis asynchronous distributed systems, and cutting-edge GenAI applications with LLM APIs, RAG pipelines, and tool-calling agents. Proven track record of cutting API response times by 20% at Carelon and 40% at Prajwal Fintech, leading engineering teams, and shipping AI audio-transcription features to production."
   },
   "career_preferences": {
     "target_roles": [
+      "AI Engineer",
       "Generative AI Engineer",
-      "LLM Application Engineer",
-      "AI/ML Engineer",
-      "Applied AI Engineer"
+      "GenAI Full Stack Engineer",
+      "Forward Deployed Engineer",
+      "Software Engineer"
     ],
-    "work_preference": "Full-Time (Remote, Hybrid, or On-site)",
-    "notice_period": "Immediately available / 15-30 days",
-    "relocation": "Open to relocation for the right opportunity",
-    "preferred_domains": [
-      "Enterprise AI & Agentic Systems",
-      "Developer Tools & LLM Infrastructure",
-      "Search, Retrieval-Augmented Generation & Reasoning",
-      "AI-driven SaaS Platforms"
-    ]
+    "work_preference": "Full-Time (Remote, Hybrid, or On-site in Bengaluru / Relocation)",
+    "notice_period": "15 days",
+    "available_to_join": "15 days",
+    "current_salary_monthly": "33,000 INR",
+    "current_ctc": "4,50,000 INR",
+    "relocation": "Open to relocation and remote opportunities"
   },
   "skills": {
-    "genai_and_llm": [
+    "ai_and_genai": [
+      "LLM APIs (OpenAI, Google Gemini, Groq, Anthropic)",
+      "Prompt Engineering",
       "Retrieval-Augmented Generation (RAG)",
-      "Agentic Architectures (LangGraph, CrewAI, AutoGen)",
-      "Prompt Engineering & Few-Shot In-Context Learning",
-      "Guardrails (NeMo, Guardrails AI, Llama Guard, Custom Pydantic Validators)",
-      "AI Evaluation Frameworks (Ragas, DeepEval, TruLens)",
-      "Function Calling & Tool-Use Agents"
+      "Embeddings & Vector Databases (ChromaDB, Pinecone, FAISS)",
+      "AI Agents & Tool Calling (LangChain, LangGraph, AutoGen)",
+      "Speech-to-Text / Audio Transcription",
+      "Python",
+      "FastAPI"
     ],
-    "frameworks_and_libraries": [
-      "LangChain",
-      "LlamaIndex",
-      "Hugging Face Transformers",
-      "FastAPI",
-      "Streamlit",
-      "Pydantic / Pydantic Settings",
-      "PyTorch",
-      "NumPy / Pandas"
+    "backend": [
+      "Java",
+      "Spring Boot",
+      "Microservices",
+      "Node.js",
+      "Express.js",
+      "RESTful APIs",
+      "Apache Kafka",
+      "Redis",
+      "Prisma",
+      "Cron Jobs"
     ],
-    "vector_databases_and_retrieval": [
-      "ChromaDB",
-      "Qdrant",
-      "FAISS",
-      "Pinecone",
-      "BM25 / Hybrid Search & Reciprocal Rank Fusion (RRF)",
-      "Cross-Encoder Re-ranking (Cohere / BGE)"
+    "frontend": [
+      "Angular",
+      "Next.js",
+      "React.js",
+      "React Native",
+      "Redux",
+      "TypeScript",
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "Tailwind CSS",
+      "shadcn/ui"
     ],
-    "models_and_apis": [
-      "Google Gemini (1.5 Flash, 1.5 Pro, 2.0)",
-      "OpenAI (GPT-4o, GPT-4o-mini)",
-      "Anthropic Claude 3.5 Sonnet",
-      "Meta Llama 3 / 3.3 (via Groq / Ollama / vLLM)",
-      "DeepSeek-R1 / V3",
-      "Tavily Search API"
+    "databases": [
+      "MySQL",
+      "Redis",
+      "Firebase",
+      "MongoDB / NoSQL"
     ],
-    "engineering_and_devops": [
-      "Python 3.10 - 3.14 (uv, poetry)",
+    "cloud_and_devops": [
+      "AWS (Amazon Web Services)",
+      "GCP (Google Cloud Platform)",
       "Docker & Containerization",
-      "Git / GitHub Actions CI/CD",
-      "RESTful API Design & OpenAPI",
-      "AsyncIO & High-Concurrency APIs",
-      "Observability & Tracing (LangSmith, Langfuse, OpenTelemetry)"
+      "Git & GitHub",
+      "GitHub Actions (CI/CD Pipelines)"
     ]
   },
   "work_experience": [
     {
-      "company": "AI & GenAI Solutions Lab",
-      "role": "Generative AI Engineer",
-      "period": "2023 - Present",
-      "location": "Remote / Hybrid",
+      "company": "Carelon Global Solutions India",
+      "role": "Associate Software Engineer I",
+      "period": "Feb 2026 – Present",
+      "location": "Bengaluru, Karnataka, India (Hybrid)",
       "responsibilities": [
-        "Architected and deployed production RAG systems with hybrid lexical-semantic search, achieving 94% retrieval accuracy.",
-        "Integrated dual-stage input/output guardrails mitigating jailbreak attempts, prompt injection, and hallucinated responses.",
-        "Implemented continuous AI evaluation pipelines using Ragas and LLM-as-a-judge to track answer faithfulness, context precision, and latency.",
-        "Engineered autonomous multi-agent workflows using LangGraph with state persistence and human-in-the-loop validation.",
-        "Optimized inference cost and token consumption by 35% through prompt compression, semantic caching, and dynamic model routing."
+        "Own the Benefits and Insurance module within an enterprise healthcare platform end-to-end, designing backend services in Java / Spring Boot and building responsive user interfaces in Angular.",
+        "Collaborated with product managers and QA to translate complex insurance eligibility and claims logic into reliable, user-friendly features used by thousands of platform members.",
+        "Architected and developed RESTful APIs and microservices supporting core healthcare workflows, integrating both SQL and NoSQL databases to handle structured member records and semi-structured insurance data.",
+        "Optimized API response times by 20% to 30% through targeted query tuning, database indexing strategies, and removal of redundant service calls in the Benefits module.",
+        "Diagnosed performance bottlenecks using AWS monitoring tools, directly improving page responsiveness and reducing backend server load during peak platform usage.",
+        "Collaborated within an Agile team of 10+ engineers, QA analysts, and product managers in sprint planning, backlog grooming, and daily standups."
       ]
     },
     {
-      "company": "Technology Consulting & Software Services",
-      "role": "Software / Machine Learning Engineer",
-      "period": "2021 - 2023",
-      "location": "India",
+      "company": "Prajwal Fintech Private Limited",
+      "role": "Software Engineer",
+      "period": "Mar 2025 – Feb 2026",
+      "location": "Hyderabad, India",
       "responsibilities": [
-        "Built and maintained high-throughput RESTful microservices using FastAPI, handling over 1M requests daily with sub-80ms p95 latency.",
-        "Developed end-to-end data processing pipelines for structured and unstructured document ingestion.",
-        "Collaborated with cross-functional teams to integrate NLP models into enterprise customer support and internal knowledge search.",
-        "Set up automated CI/CD testing suites reducing production deployment regressions by 40%."
+        "Led a team of developers building scalable MERN-stack financial applications with strict focus on high performance, transaction integrity, and security.",
+        "Architected the backend infrastructure leveraging Redis distributed caching, Firebase, and Apache Kafka asynchronous task queues for financial transactions.",
+        "Improved API performance by 40% through rigorous database query optimization, compound indexing, and caching layers.",
+        "Constructed automated CI/CD deployment pipelines using GitHub Actions, containerized microservices with Docker, and deployed on GCP and AWS.",
+        "Conducted comprehensive code reviews and mentored junior developers and interns on software quality and security standards."
+      ]
+    },
+    {
+      "company": "MOVE37 Productions",
+      "role": "Full Stack Developer",
+      "period": "May 2024 – Mar 2025",
+      "location": "Remote",
+      "responsibilities": [
+        "Built and deployed an AI-powered audio-transcription feature integrated directly into the product core.",
+        "Developed scalable, high-performance UI systems with Next.js, TypeScript, and Tailwind CSS.",
+        "Delivered responsive, client-focused web applications collaborating with cross-functional remote teams."
       ]
     }
   ],
   "featured_projects": [
     {
-      "title": "Enterprise Recruiter RAG & Portfolio Representative",
-      "tech_stack": ["FastAPI", "Streamlit", "ChromaDB", "LangChain", "Gemini 1.5/2.0", "Ragas", "Pydantic"],
-      "description": "Production-grade conversational RAG platform that acts as Dinesh's 24/7 technical representative for recruiters. Features semantic retrieval, strict guardrails against prompt injection and off-topic drift, and automated AI evaluation metrics.",
+      "title": "Enterprise Recruiter RAG & AI Career Representative",
+      "tech_stack": ["Streamlit", "FastAPI", "ChromaDB", "LangChain", "Google Gemini", "Guardrails", "Ragas"],
+      "description": "Production-grade RAG chatbot providing recruiters and hiring managers with verified, grounded insights into Dinesh's experience, architecture skills, and projects.",
       "key_highlights": [
-        "Dual guardrail defense protecting against malicious jailbreaks and hallucinations.",
-        "Automated Ragas-based evaluation pipeline measuring Faithfulness, Answer Relevancy, and Guardrail Robustness.",
-        "Sub-second response streaming with source attribution and citations."
+        "Dual guardrails protecting against prompt injection and hallucinated career claims.",
+        "Automated evaluation suite benchmarking faithfulness, context recall, and guardrail defense rate.",
+        "Hybrid retrieval (dense vector embeddings + BM25) with sub-second response times."
       ]
     },
     {
-      "title": "Autonomous Multi-Agent Workflow Engine",
-      "tech_stack": ["LangGraph", "Groq / Llama 3", "Tavily API", "FastAPI", "Docker"],
-      "description": "Multi-agent research and reasoning engine where specialized worker agents collaborate to decompose complex user prompts, perform web and codebase research, synthesize findings, and perform self-critique.",
+      "title": "AI-Powered Audio Transcription Feature",
+      "tech_stack": ["Python", "Speech-to-Text APIs", "Next.js", "TypeScript", "Tailwind CSS"],
+      "description": "Engineered automated speech-to-text transcription feature at MOVE37 Productions, streamlining audio-to-text processing for media productions.",
       "key_highlights": [
-        "Stateful cyclic graph execution with deterministic rollback and checkpointing.",
-        "Automated tool calling with rate-limit resiliency and provider failover.",
-        "Evaluation benchmark against standard agentic reasoning benchmarks."
+        "Integrated AI transcription models with low-latency streaming audio pipelines.",
+        "Built intuitive editing interface in Next.js allowing creators to review, edit, and export transcripts."
       ]
     },
     {
-      "title": "Ultra-Low Latency Free LLM Router",
-      "tech_stack": ["Python", "AsyncIO", "LiteLLM", "Redis", "TypeScript UI"],
-      "description": "High-availability proxy and model router orchestrating multiple free and open-source model providers with smart load balancing, latency tracking, and automatic fallback chains.",
+      "title": "Courier Management System",
+      "tech_stack": ["Java", "Spring Boot", "JSP", "React", "TypeScript", "Tailwind CSS"],
+      "description": "Full-stack enterprise logistics and package tracking application.",
       "key_highlights": [
-        "Dynamic provider health checks and intelligent fallback upon rate-limiting (429s).",
-        "Semantic caching reducing repeated prompt costs to zero."
+        "Built the courier tracking and dispatch service module with Spring Boot.",
+        "Implemented session timeout security to log out inactive users and created a responsive dashboard with Tailwind CSS."
       ]
     }
   ],
   "education_and_certifications": {
     "education": [
       {
-        "degree": "Bachelor of Technology in Computer Science / Engineering",
-        "field": "Computer Science & Artificial Intelligence",
-        "institution": "JNTU / University Affiliate",
-        "graduation_year": "2021"
+        "degree": "Bachelor of Technology in Computer Science and Engineering",
+        "institution": "KL University",
+        "graduation_year": "2024",
+        "duration": "2020 – 2024",
+        "cgpa": "8.9 / 10.0"
       }
     ],
-    "certifications_and_continuous_learning": [
-      "DeepLearning.AI: LangChain & Multi-Agent Systems",
-      "Hugging Face: Large Language Model In-Depth Training & Fine-Tuning",
-      "Google Cloud: Generative AI Fundamentals & Vertex AI",
-      "Docker & Kubernetes Microservices Architecture"
+    "certifications": [
+      "AWS Certified Cloud Practitioner",
+      "Wipro Java Full Stack Certification"
     ]
   },
   "recruiter_faq": [
     {
-      "question": "Why should we hire Dinesh for a Generative AI / LLM role?",
-      "answer": "Dinesh combines strong software engineering discipline (FastAPI, Docker, async patterns) with modern GenAI expertise (RAG architectures, hybrid retrieval, agentic systems, guardrails, and evals). He builds production-grade, reliable systems that move beyond simple prototypes into battle-tested products."
+      "question": "What is Dinesh's current company and role?",
+      "answer": "Dinesh is currently an Associate Software Engineer I at Carelon Global Solutions India in Bengaluru (Feb 2026 – Present), where he owns the Benefits and Insurance healthcare module built with Java, Spring Boot, and Angular."
     },
     {
-      "question": "What is Dinesh's experience with RAG and Vector Databases?",
-      "answer": "Dinesh has built production RAG systems leveraging hybrid search (BM25 + Chroma/Qdrant), reciprocal rank fusion, contextual re-ranking, and metadata filtering. He actively addresses chunking strategies, embedding alignment, and hallucination reduction."
+      "question": "What is Dinesh's notice period and availability?",
+      "answer": "Dinesh has a 15-day notice period and is available to join within 15 days."
     },
     {
-      "question": "How does Dinesh ensure LLM applications are safe and production-ready?",
-      "answer": "He implements defense-in-depth guardrails: input validation for prompt injection/jailbreak detection, topic enforcement, and output verification for hallucination and persona consistency. He also establishes continuous AI evaluation suites (Ragas/DeepEval) into CI pipelines."
+      "question": "What is Dinesh's current salary and CTC?",
+      "answer": "Dinesh's current monthly salary is 33,000 INR, and his current CTC is 4,50,000 INR."
     },
     {
-      "question": "What are his notice period and availability?",
-      "answer": "Dinesh is ready to discuss opportunities immediately and has a flexible transition/notice window (typically immediate to 15-30 days)."
+      "question": "Where is Dinesh currently located and is he open to relocation?",
+      "answer": "Dinesh is currently located in Bengaluru, Karnataka, India. He is open to remote, hybrid, and on-site opportunities, as well as relocation."
+    },
+    {
+      "question": "What are Dinesh's past companies?",
+      "answer": "Prior to Carelon Global Solutions, Dinesh worked as a Software Engineer at Prajwal Fintech Private Limited in Hyderabad (Mar 2025 – Feb 2026), leading backend architecture with Kafka, Redis, and MERN stack; and as a Full Stack Developer at MOVE37 Productions (May 2024 – Mar 2025) building AI audio-transcription features."
+    },
+    {
+      "question": "What college did Dinesh graduate from and what was his CGPA?",
+      "answer": "Dinesh graduated with a B.Tech in Computer Science and Engineering from KL University (2020 – 2024) with an outstanding CGPA of 8.9."
     },
     {
       "question": "How can a recruiter contact Dinesh?",
-      "answer": "Recruiters can reach Dinesh directly at veerapareddydinesh@gmail.com, via LinkedIn at linkedin.com/in/veerapareddydinesh, or inspect his code on GitHub at github.com/Dinesh-78."
+      "answer": "You can reach Dinesh directly via email at dineshveerapareddy@gmail.com, call him at +91-8374330906, connect on LinkedIn at https://www.linkedin.com/in/dinesh-veerapareddy/, or visit his portfolio at https://www.veerapareddydinesh.cyou/."
     }
   ]
 }
-

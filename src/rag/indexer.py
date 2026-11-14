@@ -163,6 +163,18 @@ class ProfileIndexer:
 
         Path(self.persist_dir).mkdir(parents=True, exist_ok=True)
 
+        # Clear any stale collection to guarantee 100% fresh, accurate data
+        try:
+            import chromadb
+            client = chromadb.PersistentClient(path=self.persist_dir)
+            try:
+                client.delete_collection(name="dinesh_profile")
+                logger.info("Cleared prior Chroma collection for fresh re-indexing.")
+            except Exception:
+                pass
+        except Exception:
+            pass
+
         try:
             # Prefer LangChain's vectorstore integration
             try:

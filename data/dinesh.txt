@@ -1,0 +1,36 @@
+Dinesh DetailsFirstname: VEERAPAREDDY 
+Lastname: DINESH
+phone: 8374330906
+GENDER: MALE
+Nationality: Indian
+email: dineshveerapareddy@gmail.com
+portfolio: https://www.veerapareddydinesh.cyou/
+linkedin https://www.linkedin.com/in/dinesh-veerapareddy/
+experience: 3 years
+Date of Birth : 24-03-2003
+Current salary : 33000
+ctc: 450000
+available to join: 15
+notice period: 15
+Role:  Software Engineer
+Current Location: Bengaluru
+Experience Details: 
+company name: Carelon Global Solutions 
+ Job Title: Associate Software Engineer I
+ Location: Bengaluru
+Skills: React Native, AWS, MySQL, Redux, GIT, Spring Boot, Java, Microservices,Kafka
+
+With over three years of experience in full-stack and backend software development, I specialize in designing and shipping scalable REST APIs, microservices, and database systems using Node.js, Express, and Python.Associate Software Engineer 1
+Carelon Global Solutions India · Full-time
+Feb 2026 - Present
+Bengaluru, Karnataka, India · Hybrid
+Owned end-to-end development of the Benefits and Insurance module within a healthcare platform, designing backend services in Java/Spring Boot and building responsive interfaces in Angular. Collaborated with product managers and QA to translate complex insurance eligibility and claims logic into reliable, user-friendly features used by thousands of members across the platform.
+
+Architected and developed RESTful APIs and microservices supporting core healthcare workflows, integrating both SQL and NoSQL databases to handle structured member data and high-volume, semi-structured records. Ensured clean service boundaries and maintainable code structure, enabling other teams to consume Benefits and Insurance data reliably across the broader application ecosystem.
+
+Optimized API response times by 20-30% through targeted query tuning, indexing strategies, and reduction of redundant service calls within the Benefits module. Diagnosed performance bottlenecks using AWS monitoring tools, directly improving page responsiveness for end users and reducing backend load during peak usage periods on the platform.
+
+Maintained rigorous testing standards by writing unit and integration tests for new and existing features, catching regressions early and improving overall code reliability. strengthened code quality standards and helped maintain consistency across the Benefits and Insurance codebase.
+
+Collaborated within a cross-functional Agile team of 10+ engineers, QA analysts, and product managers, actively participating in sprint planning, backlog grooming, and daily standups. Contributed technical input during requirement discussions, helping refine feature scope and ensuring engineering feasibility was factored into product decisions for the Benefits and Insurance roadmap.
+ Software Development, Spring Boot and +5 skills

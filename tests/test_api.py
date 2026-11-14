@@ -22,7 +22,7 @@ def test_profile_summary():
     assert response.status_code == 200
     data = response.json()
     assert "Dinesh" in data["name"]
-    assert data["email"] == "veerapareddydinesh@gmail.com"
+    assert data["email"] == "dineshveerapareddy@gmail.com"
 
 def test_chat_endpoint_valid_query():
     payload = {"query": "What is Dinesh's experience with RAG pipelines?"}
