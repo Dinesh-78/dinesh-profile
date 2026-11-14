@@ -15,11 +15,24 @@ except ImportError:
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
 
+def _get_secret(key: str, default: str = "") -> str:
+    """Retrieves secret from environment variable, .env, or Streamlit Cloud secrets."""
+    val = os.getenv(key)
+    if val:
+        return val
+    try:
+        import streamlit as st
+        if hasattr(st, "secrets") and key in st.secrets:
+            return str(st.secrets[key])
+    except Exception:
+        pass
+    return default
+
 class Settings(BaseSettings):
     """Application settings and environment variables."""
     # API Keys
-    GOOGLE_API_KEY: Optional[str] = Field(default_factory=lambda: os.getenv("GOOGLE_API_KEY", ""))
-    GROQ_API_KEY: Optional[str] = Field(default_factory=lambda: os.getenv("GROQ_API_KEY", ""))
+    GOOGLE_API_KEY: Optional[str] = Field(default_factory=lambda: _get_secret("GOOGLE_API_KEY", ""))
+    GROQ_API_KEY: Optional[str] = Field(default_factory=lambda: _get_secret("GROQ_API_KEY", ""))
 
     # Provider & Model selection
     LLM_PROVIDER: str = Field(default="gemini")
