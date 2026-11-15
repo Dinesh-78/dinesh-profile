@@ -1,5 +1,6 @@
-"""Clean, simple conversational interface for Dinesh's Career Profile."""
+"""Clean, simple conversational interface with Live Voice Mode for Dinesh's Career Profile."""
 
+import inspect
 import sys
 from pathlib import Path
 import streamlit as st
@@ -10,6 +11,7 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from src.guardrails.pipeline import get_pipeline
+from src.ui.audio_handler import transcribe_audio, render_speech_synthesis
 
 def main():
     st.set_page_config(
@@ -18,11 +20,25 @@ def main():
         layout="centered"
     )
 
-    # Minimal Sidebar
+    # Minimal Sidebar with Live Mode Controls
     with st.sidebar:
         st.title("Veerapareddy Dinesh")
         st.caption("Software & Generative AI Engineer")
         st.markdown("📍 Bengaluru, India")
+
+        st.divider()
+        st.markdown("### 🎙️ Live Voice Mode")
+        live_voice = st.toggle(
+            "Live Talk Mode",
+            value=True,
+            help="Talk directly using the mic beside the send button and hear voice responses."
+        )
+        auto_speak = st.toggle(
+            "Auto-speak answers",
+            value=True,
+            disabled=not live_voice,
+            help="Automatically play spoken responses in live mode."
+        )
 
         st.divider()
         st.markdown("### 📬 Contact")
@@ -40,7 +56,10 @@ def main():
 
     # Header
     st.title("Chat with Dinesh's Profile")
-    st.caption("Ask anything about his work experience, tech stack, projects, or availability.")
+    if live_voice:
+        st.caption("🎙️ **Live Voice Mode is active.** Type below or tap the microphone button beside the send button to talk!")
+    else:
+        st.caption("Ask anything about his work experience, tech stack, projects, or availability.")
 
     # Session state initialization
     if "messages" not in st.session_state:
@@ -62,19 +81,56 @@ def main():
                 selected_prompt = "What is Dinesh's notice period and current availability?"
 
     # Render existing chat history
-    for message in st.session_state.messages:
+    for i, message in enumerate(st.session_state.messages):
         with st.chat_message(message["role"]):
             st.markdown(message["content"])
+            # Provide listen button on assistant responses in voice mode
+            if message["role"] == "assistant" and live_voice:
+                render_speech_synthesis(message["content"], auto_play=False)
 
-    # User input
-    user_query = st.chat_input("Ask a question about Dinesh...")
-    prompt = selected_prompt or user_query
+    # Chat input with optional voice recording beside send button
+    input_kwargs = {
+        "placeholder": "Ask a question (or tap mic to talk)..." if live_voice else "Ask a question about Dinesh..."
+    }
+    # Check if accept_audio is supported in current Streamlit version
+    sig = inspect.signature(st.chat_input)
+    if "accept_audio" in sig.parameters and live_voice:
+        input_kwargs["accept_audio"] = True
+
+    user_submission = st.chat_input(**input_kwargs)
+
+    prompt = selected_prompt
+    is_voice_input = False
+
+    # Process user submission
+    if user_submission is not None and not prompt:
+        # Check if submission is dict-like (ChatInputValue with text and/or audio)
+        audio_file = getattr(user_submission, "audio", None)
+        text_val = getattr(user_submission, "text", None)
+
+        if audio_file is not None:
+            with st.spinner("🎙️ Transcribing voice..."):
+                try:
+                    audio_bytes = audio_file.read()
+                    transcribed = transcribe_audio(audio_bytes)
+                    if transcribed:
+                        prompt = transcribed
+                        is_voice_input = True
+                    else:
+                        st.warning("Could not detect clear speech. Please tap the mic and speak clearly, or type your question.")
+                except Exception as e:
+                    st.error(f"Voice transcription error: {e}")
+        elif text_val:
+            prompt = text_val.strip()
+        elif isinstance(user_submission, str):
+            prompt = user_submission.strip()
 
     if prompt:
         # 1. Display user prompt
-        st.session_state.messages.append({"role": "user", "content": prompt})
+        display_text = f"🎙️ *\"{prompt}\"*" if is_voice_input else prompt
+        st.session_state.messages.append({"role": "user", "content": display_text})
         with st.chat_message("user"):
-            st.markdown(prompt)
+            st.markdown(display_text)
 
         # 2. Generate response via pipeline
         pipeline = get_pipeline()
@@ -88,6 +144,10 @@ def main():
                     ]
                 )
                 st.markdown(result.response)
+
+                # Voice output in Live Mode
+                if live_voice:
+                    render_speech_synthesis(result.response, auto_play=auto_speak)
 
         # 3. Save assistant response
         st.session_state.messages.append({"role": "assistant", "content": result.response})
